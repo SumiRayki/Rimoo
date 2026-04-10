@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        gradlePluginPortal()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.3.2'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22'
+        classpath 'org.jetbrains.kotlin:kotlin-serialization:2.0.0'
+        classpath 'com.google.devtools.ksp:symbol-processing-gradle-plugin:2.0.0-1.0.23'
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        mavenCentral()
+        gradlePluginPortal()
+        google()
+    }
+}
+
+tasks.register('clean', Delete) {
+    delete project.layout.buildDirectory
+}

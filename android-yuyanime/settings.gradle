@@ -1,0 +1,3 @@
+rootProject.name = 'rimoo-android'
+
+include ':yuyansdk', ':app'
