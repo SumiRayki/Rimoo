@@ -6,7 +6,6 @@ Rimoo 是一个开源输入法项目，当前同时维护 PC（Windows）与 And
 
 - 产品名：`Rimoo`
 - 版本：`0.1.0`
-- 代码形态：**单仓库（Monorepo）**，PC 与 Android 在同一仓库维护
 
 ## 已完成（0.1.0）
 
