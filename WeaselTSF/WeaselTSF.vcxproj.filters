@@ -119,7 +119,7 @@
     <None Include="WeaselTSF.def">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="..\resource\weasel.ico">
+    <None Include="..\resource\rimoo.ico">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="..\resource\zh.ico">
@@ -138,3 +138,4 @@
     </ResourceCompile>
   </ItemGroup>
 </Project>
+

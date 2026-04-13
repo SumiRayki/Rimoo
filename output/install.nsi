@@ -35,7 +35,7 @@ VIAddVersionKey /LANG=2052 "LegalCopyright" "Copyleft RIME Developers"
 VIAddVersionKey /LANG=2052 "FileDescription" "Rimoo 输入法"
 VIAddVersionKey /LANG=2052 "FileVersion" "${WEASEL_VERSION}"
 
-!define MUI_ICON ..\resource\weasel.ico
+!define MUI_ICON ..\resource\rimoo.ico
 SetCompressor /SOLID lzma
 
 
